@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM gcr.io/google_containers/ubuntu-slim:0.6
 
 ADD config/redis.config /etc/redis/redis.config
 ADD start /start
